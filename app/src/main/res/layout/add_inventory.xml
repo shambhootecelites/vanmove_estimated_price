@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:text="Add Inventory"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <ImageView
+            android:id="@+id/close_inventory"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:tint="@android:color/black"
+            app:srcCompat="@drawable/ic_close_black_48dp" />
+
+        <Button
+            android:id="@+id/done_invenotry"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:tint="@android:color/black" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="Briefly tell us what you are moving"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/what_moving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:drawableEnd="@drawable/ic_down_arrow_c"
+        android:hint="Select Service Type"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_10sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Quick Inventory"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Quick_Inventory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:gravity="start"
+        android:hint="e.g 3 Seater sofa, Fridge freezer, 12 boxes, 10 bags, etc"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_10sdp" />
+
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/ebay_icon" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:text="(Click here to import)"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_10sdp" />
+
+
+    <Button
+        android:id="@+id/add_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/button_3"
+        android:text="Add photos of your item(s) (Optional)"
+        android:textAllCaps="false"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/add_Demensions"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/button_2"
+        android:text="Add Dimensions (Optional)"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

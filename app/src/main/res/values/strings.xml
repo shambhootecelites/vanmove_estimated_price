@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Vanmove</string>
+    <string name="facebook_app_id">261921810967393</string>
+    <string name="fb_login_protocol_scheme">fb261921810967393</string>
+
+    <string name="forgot_password">Forgot Password ?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="text_home_page">THOUSANDS OF LOCAL VANS WITH DRIVERS JUST A FEW TAPS AWAY</string>
+    <string name="text_social_account">Or connect using social account</string>
+
+    <string name="email">EMAIL</string>
+
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="password">PASSWORD</string>
+    <string name="confirm_passwords">CONFIRM PASSWORD</string>
+
+
+    <string name="language">LANGUAGE</string>
+    <string name="client_name">Name: </string>
+    <string name="telephone">Telephone: </string>
+    <string name="pick_up">Pick up</string>
+    <string name="drop_off">Drop off</string>
+    <string name="job_date">Job Date</string>
+    <string name="job_start_time">Job Start Time</string>
+
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="address_found">Address found</string>
+    <string name="service_not_available">Sorry, service not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="text_Ok">OK</string>
+
+<!--    <string name="google_map_api_key">AIzaSyBKa9pdDSlXwGSM6Nvn5tBNIcz06pPq78o
+
+
+
+</string>-->
+<!--
+    <string name="google_map_api_key">AIzaSyCsH5sr-1BDhxrSaq018m4yk1WcNuh_VoA</string>
+-->
+    <string name="google_map_api_key">AIzaSyCsH5sr-1BDhxrSaq018m4yk1WcNuh_VoA</string>
+<!--    <string name="google_map_api_key">AIzaSyA3QSgh_zDfvGMbixoo8-hAzEXJ74EYNBE</string>-->
+    <string name="date_time">Date &amp; Time</string>
+    <string name="edit_address_alert">Please click (Edit Address) to enter your door number or house name</string>
+    <string name="cancel_booking_msg">Kindly be aware that, in the event of cancelling your booking 24 hours outside of your booked time and date, your deposit will need to be forfeited.\nIn light of the above, please confirm you still wish to cancel your forthcoming booking?</string>
+    <string name="cancel_booking_msg2">Are you sure you want to cancel this job ?</string>
+
+    <string name="search_msg">
+       You can "\"Edit"\" the above address excluding the postcode.If you wish to change the postcode, please click the "\"New Address"\" button.
+    </string>
+
+
+    <string name="estmiated_helper_msg">
+        Estimated loading time at pick up? + Driving time to the drop off location? (located in map screen above) + the estimated offloading time at drop off.\n\nExample: your own estimated loading time 1 hour, driving time 30 mins, estimated offloading time 1 hour. Select 2 to 3 hours from drop down list.
+    </string>
+    <string name="edit_address_msg">You can edit your address here excluding the postcode. If you need to change the postcode, please go back to the booking screen by clicking the back button on the top left.</string>
+    <string name="edit_address_msg2">You can not edit zip code or area here just door number or placemark can be edit</string>
+    <string name="job_time">Please note- Your job start time must be at least 2 hours from now.</string>
+    <string name="gps_msg">Location service is denied for the app. Allow it to use the app</string>
+    <string name="delete_inventory">Are you sure you want to delete this inventory ?"</string>
+    <string name="no_internet">Please check your internet connection.</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_slots_available_for_today">No slots available for today. Please select \'Request for Later\'</string>
+</resources>

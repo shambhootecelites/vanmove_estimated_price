@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01031c"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white_color"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/job_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Pay £0 to Porter"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_12sdp"
+
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Thank you again for job with Vanmove"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="You can print a copy of your job from your job summary page, we have also emailed you a copy"
+            android:textAlignment="center"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/btn_rate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/style_btn_gray"
+            android:text="Rate Porter"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/btn_book_new_vanmove"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/round_button"
+            android:text="Book a new Job"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+
+    <include layout="@layout/support2" />
+
+
+</LinearLayout>

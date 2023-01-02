@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/titlebar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/color_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+
+        <TextView
+            android:id="@+id/tv_passenger_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Enter the 4-digit code sent to you at 7909092807"
+
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.dpizarro.pinview.library.PinView
+            android:id="@+id/pin_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:colorSplit="@android:color/white"
+            app:colorTextPinBox="@android:color/black"
+            app:colorTextTitles="@android:color/white"
+            app:nativePinBox="false"
+            app:deleteOnClick="false"
+
+            app:numberCharacters="1"
+            app:numberPinBoxes="4"
+            app:password="true" />
+
+
+        <Button
+            android:id="@+id/iv_btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/button"
+            android:text="Verify"
+
+            android:textColor="@color/white_color" />
+
+        <TextView
+            android:id="@+id/text_resend_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginBottom="5dp"
+            android:enabled="false"
+            android:text="Resend verification code?"
+
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

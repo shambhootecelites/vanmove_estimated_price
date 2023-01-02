@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selector_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/_5sdp"
+
+    android:paddingEnd="@dimen/_5sdp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3.5">
+
+        <LinearLayout
+            android:id="@+id/scree"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_vehicles"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dropside" />
+
+                <TextView
+                    android:id="@+id/tv_distance_min2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/circle_bg"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:visibility="gone"
+                    android:padding="@dimen/_2sdp"
+                    android:text="1.0\nMIN\nAWAY"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_4sdp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_cabbii_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="VAn"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_8sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_vehicle_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="MVM"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_8sdp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/help1"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:src="@drawable/help3" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_distance_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:visibility="gone"
+                android:text="Eta N/A"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_8sdp" />
+
+            <TextView
+                android:id="@+id/book_later"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book for later"
+                android:visibility="gone"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_8sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_session"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Estimated_Duartion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration 0 -0 hrs"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_8sdp" />
+
+
+            <TextView
+                android:id="@+id/fare_estimated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fare_breakdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fare breakdown"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_8sdp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="1dp"
+        android:background="#e4e4e4" />
+
+
+</LinearLayout>

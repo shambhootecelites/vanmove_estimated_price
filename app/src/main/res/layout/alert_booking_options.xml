@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:text="Booking Options"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_18sdp" />
+
+        <ImageView
+            android:id="@+id/close_other_booking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:src="@drawable/ic_close_black_48dp"
+            android:tint="@android:color/black" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/Make_Offer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/block"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Make an Offer"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/_12sdp" />
+
+
+    <TextView
+        android:id="@+id/Call_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/block"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Call us"
+        android:textColor="@color/color_black"
+
+        android:textSize="@dimen/_12sdp" />
+
+
+    <TextView
+        android:id="@+id/live_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/block"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Live chat"
+        android:textColor="@color/color_black"
+
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:text="Special Instruction"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:tint="@android:color/black"
+            app:srcCompat="@drawable/ic_close_black_48dp" />
+
+        <Button
+            android:id="@+id/Submit_instruction"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button"
+            android:text="Done"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:tint="@android:color/black" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/special_instructions_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:gravity="start"
+        android:hint="e.g Luton van must have a tailift, No parking outside as on main road"
+        android:padding="@dimen/_5sdp"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/_12sdp" />
+
+
+</LinearLayout>

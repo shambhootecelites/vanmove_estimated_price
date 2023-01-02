@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="PAYMENT SUCCESSFUL"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_payment_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_payment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Thank you, Payment of £0 has been debited from your card ending with xxxx"
+            android:textAlignment="center"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/tv_payment_message2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_payment_message"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Thank you again for moving with Vanmove"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_payment_message3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_payment_message2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="You can view a copy of your invoice from your dashboard by clicking on my moves, then click on previous"
+            android:textAlignment="center"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/btn_rate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/tv_payment_message3"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button"
+            android:text="Rate you Driver"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/btn_book_new_vanmove"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/btn_rate"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:background="@drawable/round_button_2"
+            android:text="Book a new Vanmove"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/contact_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/ic_question_mark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Vanmove Support"
+            android:textColor="@android:color/white"
+
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:text="Book a new Move"
+        android:id="@+id/book_new"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_12sdp" />
+
+
+</LinearLayout>

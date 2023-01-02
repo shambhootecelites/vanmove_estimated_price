@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "334263555197",
+    "firebase_url": "https://vanmove-210810.firebaseio.com",
+    "project_id": "vanmove-210810",
+    "storage_bucket": "vanmove-210810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334263555197:android:bafa4b59c172ee6f420d14",
+        "android_client_info": {
+          "package_name": "com.vanmove.passesger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334263555197-6tufs1g4hctkk7sbndmmf72j2f28lip7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqyYvZjJJKhXETLc1uj_qa_YN93rF2s9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334263555197-6tufs1g4hctkk7sbndmmf72j2f28lip7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334263555197:android:761b25f012b96d30420d14",
+        "android_client_info": {
+          "package_name": "com.vanmove.passesger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334263555197-6tufs1g4hctkk7sbndmmf72j2f28lip7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqyYvZjJJKhXETLc1uj_qa_YN93rF2s9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334263555197-6tufs1g4hctkk7sbndmmf72j2f28lip7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334263555197:android:0b064c8c9553739f420d14",
+        "android_client_info": {
+          "package_name": "com.vanmove.porter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334263555197-6tufs1g4hctkk7sbndmmf72j2f28lip7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqyYvZjJJKhXETLc1uj_qa_YN93rF2s9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334263555197-6tufs1g4hctkk7sbndmmf72j2f28lip7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
